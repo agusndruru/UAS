@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Toko Elektonik',
+      title: 'Toko Sepatu',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: BlocProvider(
         create: (context) => ItemTypeIndexCubit(),
-        child: const MyHomePage(title: 'Toko Elektronik'),
+        child: const MyHomePage(title: 'Toko Sepatu'),
       ),
     );
   }
